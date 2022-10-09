@@ -1,0 +1,505 @@
+.card {
+    padding: 20px;
+    margin: 10px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+}
+.d-block {
+    padding: 5%;
+}
+
+#navbar {
+    background-color: pink;
+}
+
+.subtit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(125, 63, 73);
+    color: white;
+    border: 2px solid white;
+}
+
+body {
+    background-image: url(../img/fondo10.jpg);
+    width: 55rem;
+}
+
+.luna img {
+    width: 150px;
+    height: 150px;
+}
+
+.luna {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.luna h1 {
+    --background-color: rgba(242, 139, 156, 0.7);
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.box_novedades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55rem;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(125, 63, 73, 1) 83%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px
+}
+
+.controls {
+    width: 400px;
+    background-color: pink;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px solid black;
+}
+
+.preguntas_frec {
+    color: black;
+    text-align: center;
+    background-color: pink;
+}
+
+.a_blanco {
+    color: black;
+    background-color: pink;
+    padding: 5px;
+}
+
+.medida {
+    color: black;
+    background-color: pink;
+    padding: 5px;
+}
+
+.llegar_pedido {
+    color: black;
+    background-color: pink;
+    padding: 5px;
+}
+
+.plazo_cambio {
+    color: black;
+    background-color: pink;
+    padding: 5px;
+}
+
+.preg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 36%, rgba(125, 63, 73, 1) 72%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    width: 55rem;
+    flex-direction: column;
+    gap: 15px 10px;
+    justify-items: center;
+    align-items: center;
+    border: 3px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.como_comprar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 55rem;
+    color: white;
+    font-size: 20px;
+    --background-color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(125, 63, 73, 1) 0%, rgba(0, 0, 0, 1) 46%);
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    border: 20px;
+}
+
+.como_comprar b {
+    color: black;
+    background-color: pink;
+    padding: 10px 10px 10px 10px;
+}
+
+.como_comprar_body {
+    margin-top: 40px;
+}
+
+.como_comprar a {
+    text-decoration: none;
+    color: pink;
+}
+
+.pie_pagina {
+    width: 55rem;
+    background-color: rgb(125, 63, 73);
+}
+
+.pie_pagina .grupo_1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 30px 0px;
+}
+
+.pie_pagina .grupo_1 .box figure {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie_pagina .grupo_1 .box figure img {
+    width: 150px;
+}
+
+.pie_pagina .grupo_1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie_pagina .grupo_1 .box p {
+    color: rgb(217, 189, 189);
+    margin-bottom: 10px;
+}
+
+.pie_pagina .grupo_1 .social img {
+    display: inline-block;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.pie_pagina .grupo_1 .social a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.pie_pagina .grupo_2 {
+    background-color: rgb(74, 73, 73);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie_pagina .grupo_2 small {
+    font-size: 15px;
+}
+
+.main {
+    background-color: pink;
+    background-image: url(../img/fondo10.jpg);
+    --background: linear-gradient(90deg, rgba(187, 110, 238, 1) 0%, rgba(250, 120, 184, 1) 48%, rgba(255, 255, 255, 1) 100%);
+    background-size: 100%;
+}
+
+.fixed {
+    position: unset;
+    overflow: hidden;
+}
+
+.controls_form {
+    width: 30rem;
+    background-color: pink;
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+}
+
+
+
+
+
+/* para desktop */
+@media (min-width: 992px) {
+    .tit {
+        animation: heartBeat;
+        animation-duration: 5s;
+    }
+
+    .box_novedades {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(125, 63, 73, 1) 83%);
+        --background-color: rgb(125, 63, 73);
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: auto;
+    }
+
+    .controls {
+        width: 400px;
+        background-color: pink;
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border: 3px solid black;
+    }
+
+    .preguntas_frec {
+        grid-area: preguntas_frec;
+        color: black;
+        text-align: center;
+        background-color: pink;
+    }
+
+    .a_blanco {
+        grid-area: a_blanco;
+        color: black;
+        background-color: pink;
+        padding: 5px;
+    }
+
+    .medida {
+        grid-area: medidas;
+        color: black;
+        background-color: pink;
+        padding: 5px;
+    }
+
+    .a_blanco ul {
+        grid-area: a_blanco_ul;
+    }
+
+    .medida ul {
+        grid-area: medidas_ul;
+    }
+
+    .llegar_pedido {
+        grid-area: llegar_pedido;
+        color: black;
+        background-color: pink;
+        padding: 5px;
+    }
+
+    .llegar_pedido p {
+        grid-area: llegar_pedido_p;
+    }
+
+    .plazo_cambio {
+        grid-area: plazo;
+        color: black;
+        background-color: pink;
+        padding: 5px;
+    }
+
+    .plazo_cambio ul {
+        grid-area: plazo_ul;
+    }
+
+    .preg {
+        --background-color: rgb(125, 63, 73);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 36%, rgba(125, 63, 73, 1) 72%);
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: grid;
+        grid-template-areas:
+            "preguntas_frec a_blanco medidas"
+            "preguntas_frec a_blanco_ul medidas_"
+            "preguntas_frec llegar_pedido plazo "
+            "preguntas_frec llegar_pedido_p plazo_ul";
+        grid-template-columns: 20% auto auto;
+        grid-template-rows: 40px auto auto auto;
+        gap: 15px 10px;
+        justify-items: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .subtit {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        text-align: center;
+        background-color: rgb(125, 63, 73);
+        color: white;
+        border: 4px solid white;
+    }
+
+    .fixed {
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    .luna img {
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+
+    .luna {
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+
+    .luna h1 {
+        --background-color: rgba(242, 139, 156, 0.7);
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3rem;
+    }
+
+    .nosotros_body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 25px;
+        background-color: pink;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .nosotros_body img {
+        border-radius: 20%;
+        float: right;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .como_comprar {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-size: 20px;
+        --background-color: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(125, 63, 73, 1) 0%, rgba(0, 0, 0, 1) 46%);
+        padding: 40px 40px 40px 40px;
+        text-align: center;
+        border: 20px;
+        width: auto;
+    }
+
+    .como_comprar b {
+        color: black;
+        background-color: pink;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .como_comprar_body {
+        margin-top: 40px;
+    }
+
+    .como_comprar a {
+        text-decoration: none;
+        color: pink;
+    }
+
+    .contact img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact a {
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    .contact {
+        background-color: pink;
+    }
+
+    .pie_pagina {
+        width: 100%;
+        background-color: rgb(125, 63, 73);
+    }
+
+    .pie_pagina .grupo_1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 30px 0px;
+    }
+
+    .pie_pagina .grupo_1 .box figure {
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pie_pagina .grupo_1 .box figure img {
+        width: 150px;
+    }
+
+    .pie_pagina .grupo_1 .box h2 {
+        color: white;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .pie_pagina .grupo_1 .box p {
+        color: rgb(217, 189, 189);
+        margin-bottom: 10px;
+    }
+
+    .pie_pagina .grupo_1 .social img {
+        display: inline-block;
+        text-decoration: none;
+        width: 25px;
+        height: 25px;
+        color: white;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .pie_pagina .grupo_1 .social a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    .pie_pagina .grupo_2 {
+        background-color: rgb(74, 73, 73);
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .pie_pagina .grupo_2 small {
+        font-size: 15px;
+    }
+
+    body {
+        background-image: url(../img/fondo10.jpg);
+        width: 100%;
+    }
+
+    .main_productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+    }
+
+    .controls_form {
+        width: 20rem;
+        background-color: pink;
+        padding: 10px;
+        margin: 15px;
+        border: 3px solid black;
+    }
+}
